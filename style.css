@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins';
+}
+
+body{
+    background:#222;
+}
+
+/* Nav Bar */
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.nav-logo{
+    margin-right: auto;
+    width: 150px;
+    height: 100%;
+}
+
+.logo-1{
+    font-size: 20px;
+    font-weight: 800;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+}
+
+nav ul{
+    list-style: none;
+}
+.nav-links{
+    list-style: none;
+    color: white;
+    font-weight: 200;
+    font-size: bold;
+}
+.nav-links li{
+    display: inline-block;
+    padding: 0 20px;
+    margin: 0 20px;
+}
+.nav_links li a:hover {
+    color: #2876f9;
+}
+
+.button-github {
+    color: white;
+    padding: 9px 25px;
+    background-color: #2876f9;
+    background-image: linear-gradient(315deg, #2876f9 0%, #6d17cb 74%);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+
+}
+
+.button-github:hover {
+    background-color: #2222;
+}
+
+/* Body */
+
+.login-box{
+    padding: 30px 120px;
+    width: 550px;
+    background: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    border-radius: 10px;
+}
+
+.logo{
+    width: 30px;
+    margin-bottom: 20px;
+}
+
+.login-box h2{
+     margin-bottom: 20px;
+}
+
+.login-box button img{
+    width: 18px;
+    margin-right: 10px;
+}
+
+.login-box button{
+    width: 100%;
+    padding: 10px 0;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background: transparent;
+    border: 1px solid #999;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.login-box hr{
+    border: 0;
+    background: #c2c2c2;
+    height: 1px;
+    margin: 5px;
+}
+
+.login-box span{
+    display: block;
+    width: 40px;
+    margin: auto;
+    background: #fff;
+    font-size: 14px;
+    margin-top: -16px;
+}
+
+.login-box input{
+    width: 100%;
+    background: transparent;
+    border: 1px solid #999;
+    outline: 0;
+    padding: 15px 10px;
+    border-radius: 4px;
+    margin: 10px 0;
+}
+
+::placeholder{
+    font-weight: 500;
+    color: #333;
+}
+
+.login-box form button{
+    background: black;
+    color: #fff;
+    border: 0;
+    margin-bottom: 15px;
+}
+
+.login-box p{
+    /* text-align: left; */
+    font-size: small;
+    color: #555;
+    margin: 40px 0 50px;
+}
+
+.login-box p a{
+    text-decoration: none;
+    color: #359fc0;
+}
